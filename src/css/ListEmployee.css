@@ -1,0 +1,130 @@
+/* 🌟 Page background */
+body {
+    background: linear-gradient(135deg, #eef2f7, #e3ecf5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🌟 Container */
+.container {
+    margin-top: 40px;
+}
+
+/* 🌟 Title */
+h2 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Add Button */
+.btn-primary {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #004494);
+    transform: scale(1.05);
+}
+
+/* 🌟 Search box */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    transition: 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* 🌟 Table styling */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* Table header */
+.table thead {
+    background: linear-gradient(135deg, #343a40, #212529);
+    color: white;
+}
+
+/* Table rows */
+.table tbody tr {
+    transition: 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+/* 🌟 Buttons inside table */
+.btn-info {
+    border-radius: 6px;
+    padding: 5px 10px;
+    background-color: #17a2b8;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    border-radius: 6px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.btn-danger:hover {
+    transform: scale(1.05);
+}
+
+/* 🌟 Pagination buttons */
+.text-center button {
+    border-radius: 6px;
+    padding: 5px 12px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.text-center .btn-primary {
+    background: #007bff;
+}
+
+.text-center .btn-secondary {
+    background: #6c757d;
+}
+
+.text-center button:hover {
+    transform: scale(1.1);
+}
+
+/* 🌟 No results */
+td.text-center {
+    font-weight: 500;
+    color: #888;
+}
+
+/* 🌟 Responsive */
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}

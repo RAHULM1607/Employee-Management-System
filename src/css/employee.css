@@ -1,0 +1,82 @@
+/* 🌟 Page Background */
+body {
+    background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🌟 Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* 🌟 Title */
+.card h2 {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Form Labels */
+.form-label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* 🌟 Input Fields */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Focus effect */
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* 🌟 Error State */
+.is-invalid {
+    border-color: #e74c3c;
+}
+
+.invalid-feedback {
+    font-size: 0.85rem;
+}
+
+/* 🌟 Button */
+.btn-success {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #28a745, #218838);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.btn-success:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: scale(1.02);
+}
+
+/* 🌟 Spacing */
+.container {
+    margin-top: 50px;
+}
+
+/* 🌟 Responsive */
+@media (max-width: 768px) {
+    .card {
+        margin: 0 10px;
+    }
+}

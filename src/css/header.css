@@ -1,0 +1,30 @@
+.navbar-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links button {
+  margin-left: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #334155;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  background: #475569;
+  transform: translateY(-2px);
+}
