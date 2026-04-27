@@ -5,7 +5,7 @@ import ListEmployeeComponent from './componenets/ListEmployeeComponent'
 import Footer from './componenets/Footer'
 import {BrowserRouter ,Route,Routes,} from 'react-router-dom'
 import Employee from './componenets/Employee'
-import Dashboard from './componenets/Dashboard'
+import Dashboard from './componenets/DashBoard'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 function App() {
